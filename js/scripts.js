@@ -1,3 +1,23 @@
+jQuery(document).ready(function() {
+  jQuery("h1").click(function() {
+    alert("This is about a mammal.");
+  });
+
+  jQuery("p").click(function() {
+    alert("This is about manateeeeeees!!!!");
+  });
+
+jQuery(".innocent").click(function() {
+  alert("innocent image of a manatee");
+});
+
+jQuery(".mean").click(function() {
+  alert("MEAAAAAAN image of a manatee");
+});
+  });
+
+
+
 var greeting = prompt("Enter a sentence");
 
 var firstLetter = greeting.charAt(0);
