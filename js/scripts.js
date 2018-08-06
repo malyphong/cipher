@@ -52,6 +52,8 @@ jQuery(document).ready(function() {
   });
 
   jQuery("p").click(function() {
+    jQuery(".tittle").toggle();
+      jQuery(".innocent").toggle();
     alert("This is about manateeeeeees!!!!");
   });
 
